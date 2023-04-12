@@ -18,7 +18,10 @@
     justify-content: space-between;
     box-sizing: border-box;
 }
+.group a[href^="http"]{
+    display: inline;
 
+}
 .item-top {
     cursor: pointer;
     color: white;
