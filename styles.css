@@ -17,13 +17,13 @@
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    
+    /* height: 120px; */
 }
 .group .item-top{
-    display: inline;
-    height: 55px;
+    padding: 2px;
+    align-items: center;
+} 
 
-}
 .item-top {
     cursor: pointer;
     color: white;
