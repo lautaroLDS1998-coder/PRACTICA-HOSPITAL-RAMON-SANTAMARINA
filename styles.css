@@ -48,6 +48,7 @@
     box-sizing: border-box;
 }
 .group-options__style .item-options{
+    cursor: pointer;
         color: black;
         font-size: 18px;
         display: inline-block;
