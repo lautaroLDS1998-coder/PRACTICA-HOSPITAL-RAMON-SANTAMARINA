@@ -1,0 +1,107 @@
+/* body{
+    background-color: var(--bs-info-text-emphasis)
+} */
+
+
+
+/* .group-options__posit{
+ 
+} */
+
+/* .fdvdfv{
+    background-color:rgb(56, 65, 132);
+} */
+.menu-bar__top {
+    background-color:rgb(56, 65, 132);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.item-top {
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+}
+.item-top:hover,
+.item.title:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+.item.title {
+    font-weight: 600;
+}
+
+
+.logos-posit{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-bar {
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.group-options__style .item-options{
+        color: black;
+        font-size: 18px;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 14px 20px;
+}
+.group-options__style .item-options:hover{
+    color: red;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    
+}
+.column-styles{
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-align: center;
+}
+.article-hospital-turns{
+    align-items: center;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-start;
+    background-image: linear-gradient(225deg, rgba(216, 212, 212, 1) 0%, rgba(56, 65, 132, 1) 83%);
+}
+.article-hospital-turns h1{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.item {
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+}
+
+.item.title {
+    font-weight: 600;
+    display: flex;
+    align-self: flex-start;
+
+}
+hr{
+    opacity:20%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
