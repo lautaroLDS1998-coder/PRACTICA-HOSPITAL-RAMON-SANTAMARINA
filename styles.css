@@ -20,6 +20,8 @@
     height: 125px;
 }
 .menu-bar__top {
+    z-index: 1;
+    position: fixed;
     background-color:rgb(56, 65, 132);
     width: 100%;
     display: flex;
@@ -29,6 +31,10 @@
     /* height: 120px; */
 }
 
+.img-styles{
+    position: relative;
+    top: 6vh;
+}
 .menu-bar__top >*{
     margin-left: auto;
     margin-right: auto;
