@@ -11,6 +11,14 @@
 /* .fdvdfv{
     background-color:rgb(56, 65, 132);
 } */
+
+.logo-hospital__size{
+    width: 350px;
+}
+.logo-muni_tandil__size,
+.logo-hospital__size{
+    height: 125px;
+}
 .menu-bar__top {
     background-color:rgb(56, 65, 132);
     width: 100%;
@@ -24,6 +32,7 @@
 .menu-bar__top >*{
     margin-left: auto;
     margin-right: auto;
+    font-weight: 300;
 }
 .group .item-top{
     padding: 2px;
@@ -59,7 +68,8 @@
     box-sizing: border-box;
 }
 .group-options__style .item-options{
-    cursor: pointer;
+        justify-content: space-evenly;
+        cursor: pointer;
         color: black;
         font-size: 18px;
         display: inline-block;
