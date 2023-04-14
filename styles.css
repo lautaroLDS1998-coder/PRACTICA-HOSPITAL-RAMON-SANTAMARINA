@@ -13,11 +13,11 @@
 } */
 
 .logo-hospital__size{
-    width: 350px;
+    width: 200px;
 }
 .logo-muni_tandil__size,
 .logo-hospital__size{
-    height: 125px;
+    height: 100px;
 }
 .menu-bar__top {
     background-color:rgb(56, 65, 132);
