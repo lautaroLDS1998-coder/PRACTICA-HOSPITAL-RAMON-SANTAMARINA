@@ -16,6 +16,9 @@
     margin: 5px;
     height: 10px;
 }
+.dropdown-menu{
+    border: 2px solid red;
+}
 .article-hospital-turns{
     align-items: center;
     height: 15vh;
@@ -140,6 +143,7 @@ a{
     align-self: flex-start;
 
 }
-hr{
+.dropdown-menu hr{
     opacity:20%;
+    color: red;
 }
