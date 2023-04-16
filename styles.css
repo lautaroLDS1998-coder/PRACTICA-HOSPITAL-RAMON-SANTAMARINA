@@ -80,6 +80,18 @@
 .group-options__style .item-options:hover{
     color: red;
 }
+.nav-bar__size{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-link{
+    /* display: flex; */
+}
+.nav-link:hover{
+    color: red;
+}
 
 .row{
     display: flex;
