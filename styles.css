@@ -11,10 +11,18 @@
 /* .fdvdfv{
     background-color:rgb(56, 65, 132);
 } */
+body{
+    font-family: 'Playfair Display', serif;
+}
 .dropdown-item{
     margin: 5px;
     height: 10px;
 }
+.dropdown-menu .dropdown-item{
+    align-items: center;
+
+}
+
 .dropdown-menu{
     border: 2px solid red;
 }
@@ -48,13 +56,16 @@ a{
 .logo-hospital__size{
     height: 100px;
 }
+.dropdown-toggle{
+    align-items: center;
+}
 .menu-bar__top {
     background-color:rgb(56, 65, 132);
     width: 100%;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    
+    align-items: center;
     /* height: 120px; */
 }
 
