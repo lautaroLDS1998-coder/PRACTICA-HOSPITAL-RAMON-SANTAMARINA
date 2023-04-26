@@ -25,13 +25,16 @@ body{
     
 }
 .dropdown-item{
-    margin: 5px;
+    align-items: center;
+    margin:1px 5px;
+    padding-top: .1px;
     height: 10px;
 }
-.dropdown-menu .dropdown-item{
+.dropdown-menu >*{
+    text-align: center;
     align-items: center;
-
 }
+
 
 .dropdown-menu{
     border: 2px solid red;
