@@ -9,7 +9,14 @@ html {
 *::before {
     box-sizing: inherit;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
+    display: inline;
+    /* margin: 2 !important; */
     font-family: 'Playfair Display', serif;
     
 }
