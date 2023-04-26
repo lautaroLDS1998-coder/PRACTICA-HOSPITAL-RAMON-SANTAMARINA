@@ -38,7 +38,7 @@
 }
 @media (max-width:1700px) {
     .navbar-more-options__styles {
-        width: 105%;
+        width: 100%;
         display: inline-block;
     }
     

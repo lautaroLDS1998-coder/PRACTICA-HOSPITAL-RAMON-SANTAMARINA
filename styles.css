@@ -14,6 +14,10 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
+.img-styles{
+    margin-left: auto;
+    margin-right    : auto;
+}
 body{
     display: inline;
     /* margin: 2 !important; */
@@ -37,6 +41,8 @@ body{
     height: 15vh;
     display: flex;
     justify-content:center;
+    margin-left: auto;
+    margin-right: auto;
     background-image: linear-gradient(225deg, rgba(216, 212, 212, 1) 0%, rgba(56, 65, 132, 1) 83%);
 }
 .article-hospital-turns h1{
