@@ -135,14 +135,15 @@ a{
     margin: 0 0.6rem;
     cursor: pointer;
 }
-.socialmedia-svg{
-    height: 1.5rem;
-    width: 1.5rem;
-    margin: 0 0.6rem;
-    cursor: pointer;
+
+.socialmedia-svg:hover{
+    background-color: red;
+
 }
 .button-theme{
-    display: inline;
+    width: 4rem;
+    height: 4rem;
+    /* display: inline; */
     background-color: var(--mybackground-color);
     border: none;
     
