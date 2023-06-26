@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-dark>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +11,7 @@
         crossorigin="anonymous"></script>
         <link rel="stylesheet" href="/styles.css">
         <link rel="stylesheet" href="/mediaQ.css">
+        <link rel="stylesheet" href="/boton-dark.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
@@ -19,7 +20,7 @@
 </head>
 <header>
 
-    <nav class="menu-bar__top ">
+    <nav class="menu-bar__top "  >
         <div class="group ">
             <a class="item title">EMERGENCIAS HOSPITAL 107</a>
         </div>
@@ -28,34 +29,37 @@
             <a class="item-top" >DONA SANGRE</a>
             <a class="item-top">TURNOS</a>
         
-            <img class="socialmedia-svg"src="/media/facebook.svg" alt="">
-            <img class="socialmedia-svg"src="/media/instagram.svg" alt="">
+            <img class="socialmedia-svg"src="/media/facebook.svg" alt="facebook">
+            <img class="socialmedia-svg"src="/media/instagram.svg" alt="instagram">
+            <button type="button" class="button-theme">🌜</button>
+            
+            
         
         </div>
     </nav> 
 </header>
 
-    <body>
+    <body data-dark>
         <div class=" text-center">
             <div class="row img-styles">
                 <div class=" col-xl-  col-lg-5 col-md-5 col-sm-12">
                     <img class="logo-hospital__size" src="/media/logo.png" alt="hospital tandil">                    
                 </div>
                 <div class="col-xl-6  col-lg-5 col-md-5 col-sm-12 ">
-                    <img class="logo-muni_tandil__size" src="/media/logo-municipio-de-tandil.png" alt="municipio tandil">
+                    <img class="logo-muni_tandil__size transparent-municipio" src="/media/tandil-logo.png" alt="municipio tandil">
                 </div>
                 
                 <hr>
                 
-                <section class="nav-bar__size container-fluid  ">
-                <nav class="navbar navbar-more-options__styles    navbar-expand-xxl bg-body-tertiary col-xxl-5 col-lg-11 col-md-11 col-sm-10  ">
+                <section  class="nav-bar__size container-fluid  " >
+                <nav  data-dark class="navbar navbar-more-options__styles    navbar-expand-xxl bg-body-tertiary col-xxl-5 col-lg-11 col-md-11 col-sm-10  ">
                     <div class="container group-options__posit group-options__style "
-                        style="background-color: rgb(255, 255, 255);">
+                        style="background-color: rgb(255, 255, 255);" data-dark >
                         <!-- Empieza la barra de navegacion -->
-                        <a class="nav-link navbar-brand" href="http://sisptandil.gob.ar/index.php?id=293"  target="_blank">ENLACE PAGINA ORIGINAL</a></a>
-                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        <a data-dark class="nav-link navbar-brand" href="http://sisptandil.gob.ar/index.php?id=293"  target="_blank">ENLACE PAGINA ORIGINAL</a></a>
+                        <button  data-dark class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navijustify-content-centergation">
-                            <span class="navbar-toggler-icon"></span>
+                            <span data-dark class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse container" id="navbarSupportedContent">
                             <ul class="navbar-nav container me-auto mb-2 mb-lg-0">
@@ -64,7 +68,7 @@
                                         aria-expanded="false">
                                         INFORMACION DE INTERES
                                     </a>
-                                    <ul class="dropdown-menu info-acordeon  " data-bs-theme="light">
+                                    <ul  data-dark class="dropdown-menu info-acordeon  " data-bs-theme="light">
                                         <li><a class="dropdown-item" href="#">CERTIFICADO UNICO DE DISCAPACIDAD</a></li>
                                         <hr>
                                         <li><a class="dropdown-item" href="#">DONACION DE SANGRE</a></li>
@@ -87,12 +91,12 @@
                                         
                                     
                                     </ul>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                <li  class="nav-item dropdown">
+                                    <a data-dark class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         SALUD COMUNITARIA
                                     </a>
-                                    <ul class="dropdown-menu info-acordeon ">
+                                    <ul data-dark class="dropdown-menu info-acordeon ">
                                         <li><a class="dropdown-item" href="#">DE LA CANAL</a></li>
                                         <hr>
                                         <li><a class="dropdown-item" href="#">FULTON</a></li>
@@ -107,11 +111,11 @@
                 
                                     </ul>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    <a data-dark class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         HOSPITAL DE NIÑOS
                                     </a>
-                                    <ul class="dropdown-menu info-acordeon " data-bs-theme="light">
+                                    <ul data-dark class="dropdown-menu info-acordeon " data-bs-theme="light">
                                         <li><a class="dropdown-item" href="#">PRESENTACION</a></li>
                                         <hr>
                                         <li><a class="dropdown-item" href="#">CONSULTORIOS EXTERNOS</a></li>
@@ -125,11 +129,11 @@
                                         <li><a class="dropdown-item" href="#">info del acordeon</a></li>
                                     </ul>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    <a data-dark class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         HOSPITAL RAMON SANTAMARINA
                                     </a>
-                                    <ul class="dropdown-menu info-acordeon ">
+                                    <ul data-dark class="dropdown-menu info-acordeon ">
                                         <li><a class="dropdown-item" href="#">info del acordeon</a></li>
                                         <hr>
                                         <li><a class="dropdown-item" href="#">info del acordeon</a></li>
@@ -143,11 +147,11 @@
                                         <li><a class="dropdown-item" href="#">info del acordeon</a></li>
                                     </ul>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    <a data-dark class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         VACUNACION
                                     </a>
-                                    <ul class="dropdown-menu info-acordeon " data-bs-theme="light">
+                                    <ul data-dark class="dropdown-menu info-acordeon " data-bs-theme="light">
                                         <li><a class="dropdown-item" href="#">info del acordeon</a></li>
                                         <hr>
                                         <li><a class="dropdown-item" href="#">info del acordeon</a></li>
@@ -161,11 +165,11 @@
                                         <li><a class="dropdown-item" href="#">info del acordeon</a></li>
                                     </ul>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    <a data-dark class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         SALUD MENTAL COMUNITARIA
                                     </a>
-                                    <ul class="dropdown-menu info-acordeon">
+                                    <ul data-dark class="dropdown-menu info-acordeon">
                                         <li><a class="v" href="#">info del acordeon</a></li>
                                         <hr>
                                         <li><a class="dropdown-item" href="#">info del acordeon</a></li>
@@ -241,5 +245,7 @@
         <!-- <div class="ratio ratio-16x9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/xrgDFcfRkbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 </div>
+<script src="/index.js" type="module"></script>
+<script src="/dark.js" type="module"></script>
 </body>
 </html>
