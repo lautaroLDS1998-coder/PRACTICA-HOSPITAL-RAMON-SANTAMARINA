@@ -124,7 +124,7 @@ a{
 .item-top {
     cursor: pointer;
     color: white;
-    font-size: 18px;
+    font-size: .9rem;
     /* display: inline-block; */
     /* box-sizing: border-box; */
     /* padding: 14px 20px; */
@@ -146,6 +146,8 @@ a{
     /* display: inline; */
     background-color: var(--mybackground-color);
     border: none;
+    font-size:larger;
+    align-items: center;
     
 }
 
@@ -213,7 +215,7 @@ width: 250%;
     cursor: pointer;
     color: white;
     background-color: transparent;
-    font-size: 18px;
+    font-size: 15px;
     display: inline-block;
     box-sizing: border-box;
     padding: 14px 20px;
